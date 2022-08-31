@@ -1,11 +1,12 @@
 # Bootstrap-Portfolio
 
-> This is the first two sections of a my portfolio website in a mobile browser
+> This is a portfolio project built with bootstrap.
 
 ## Built With
 
 - Html & CSS
 - Visual studio
+- Bootstrap
 
 ## Getting Started
 
@@ -16,6 +17,7 @@
 - Html & CSS basics
 - Git & github
 - SSH key for github linked to git on local environment
+- Bootstrap
 
 ### Setup (how to clone this repository to local environment)
 
@@ -32,7 +34,7 @@
 
 ### Usage
 
-- Demostrate competence concerning the professional presentation of project
+- Demostrate competence concerning web development with bootstrap
 
 ### Deployment
 - Right click on the index.html file
@@ -40,15 +42,21 @@
 - Choose any browser from the options that appear
 
 ### Access
-- In order to access the wedsite online please click this link [live demo](https://daron976.github.io/portfolio/) 
+- In order to access the wedsite online please click this link...
 
 ## Author/s
 
-👤 **Author1**
+👤 **Daron Kumi Wiafe**
 
 - GitHub: [@githubhandle](https://github.com/Daron976)
 - Twitter: [@twitterhandle](https://twitter.com/WiafeDaron)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daron-wiafe-1b88141a6/)
+
+👤 **John Adibe**
+
+- GitHub: [@githubhandle](https://github.com/Johnadibe)
+- Twitter: [@twitterhandle](https://twitter.com/JohnAdibe2/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-adibe-400b36166/)
 
 ## 🤝 Contributing
 
@@ -64,14 +72,8 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to Microverse 
 - Inspiration
-- Samuel lekpor 
-    - GitHub: [@githubhandle](https://github.com/Samuellekpor)
-- Emre Karayaman
-    - GitHub: [@githubhandle](https://github.com/karayamanemre)
-- John Adibe
-    - GitHub: [@githubhandle](https://github.com/Johnadibe)
-    - Twitter: [@twitterhandle](https://twitter.com/JohnAdibe2/)
-    - LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-adibe-400b36166/)
+- Bootstrap Framework
+    
 
 # 📝 License
 
