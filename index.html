@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css" />
     <script src="https://kit.fontawesome.com/8f283d01ad.js" crossorigin="anonymous"></script>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Portfolio Website Page</title>
 </head>
 <body>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="headline-text-box d-flex align-items-center jusitify-items-between">
                   <div class="d-flex align-items-center">
-                    <div class="social-icons">
+                    <div class="social-icons col-sm-2">
                         <ul class="social-icons-lists list-unstyled mx-5">
                             <li>
                                 <a href="#">
@@ -84,7 +84,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="text-white">
+                    <div class="text-white col-sm-10">
                       <h1 id="headline-primary" class="text-warning">
                           Hey There. <br /> I'm John
                       </h1>
@@ -97,9 +97,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="d-flex jusitify-content-end">
+                  <!-- <div class="d-flex jusitify-content-end">
                     <img src="images/illustration-header.svg" alt="background image">
-                  </div>
+                  </div> -->
                 </div>
               </div>
         </div>
@@ -107,19 +107,19 @@
 
     <section class="works-section mb-5">
         <div class="container-lg">
-            <div class="row">
+            <div>
                 <div class="row works align-items-center mt-5 mb-5">
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <h2 class="works-heading">My Recent Works</h2>
                     </div>
-                    <div class="col-9">
+                    <div class="col-md-9">
                         <hr class="recent-works"/>
                     </div>
                 </div>
 
                 <div class="row post-stories d-flex">
-                        <img class="img-fluid col-6" src="images/post-stories.svg" alt="A spinning girl in a circle" />
-                    <div class="post-text-box col-6 d-flex flex-column gap-3">
+                    <img class="img-fluid col-md-6" src="images/post-stories.svg" alt="A spinning girl in a circle"/>
+                    <div class="post-text-box col-md-6 d-flex flex-column gap-3">
                         <h3 class="post-stories-heading">Multi-Post Stories</h3>
                         <p class="post-stories-description">
                             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
@@ -137,82 +137,87 @@
                 </div>
 
                 <div class="art-printing-container d-flex flex-column gap-5 mt-5">
-                  <div class="d-flex gap-5">
-                    <div class="art-printing-1 bg-1 col-4 d-flex align-items-end">
-                        <button type="button" class="btn btn-warning full-btn d-block">See Project</button>
-                    </div>
+                  <div class="row-container">
+                    <div class="row d-flex justify-content-between">
 
-                    <div class="art-printing-2 bg-2 col-4 d-flex flex-column justify-content-end">
-                        <div class="mx-2">
-                            <h3 class="art-printing-heading">Data Dashboard Healthcare</h3>
-                            <p class="art-printing-description">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                            </p>
-                            <ul class="art-printing-list list-unstyled d-flex gap-2">
-                              <li class="py-2 px-3 bg-secondary">html</li>
-                              <li class="py-2 px-3 bg-secondary">bootstrap</li>
-                              <li class="py-2 px-3 bg-secondary">Ruby</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="art-printing-3 bg-3 col-4 d-flex flex-column justify-content-end">
-                        <div class="mx-2">
-                            <h3 class="art-printing-heading">Website Protfolio</h3>
-                            <p class="art-printing-description">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                            </p>
-                            <ul class="art-printing-list list-unstyled d-flex gap-2">
-                              <li class="py-2 px-3 bg-secondary">html</li>
-                              <li class="py-2 px-3 bg-secondary">bootstrap</li>
-                              <li class="py-2 px-3 bg-secondary">Ruby</li>
-                            </ul>
-                        </div>
+                      <div class="art-printing-1 bg-1 col-md-4 d-flex align-items-end">
+                          <button type="button" class="btn btn-warning full-btn d-block">See Project</button>
                       </div>
+  
+                      <div class="art-printing-2 bg-2 col-md-4 d-flex flex-column justify-content-end">
+                          <div>
+                              <h3 class="art-printing-heading">Data Dashboard Healthcare</h3>
+                              <p class="art-printing-description">
+                                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                              </p>
+                              <ul class="art-printing-list list-unstyled d-flex gap-2">
+                                <li class="py-2 px-3 bg-secondary">html</li>
+                                <li class="py-2 px-3 bg-secondary">bootstrap</li>
+                                <li class="py-2 px-3 bg-secondary">Ruby</li>
+                              </ul>
+                          </div>
+                      </div>
+  
+                      <div class="art-printing-3 bg-3 col-md-4 d-flex flex-column justify-content-end">
+                          <div>
+                              <h3 class="art-printing-heading">Website Protfolio</h3>
+                              <p class="art-printing-description">
+                                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                              </p>
+                              <ul class="art-printing-list list-unstyled d-flex gap-2">
+                                <li class="py-2 px-3 bg-secondary">html</li>
+                                <li class="py-2 px-3 bg-secondary">bootstrap</li>
+                                <li class="py-2 px-3 bg-secondary">Ruby</li>
+                              </ul>
+                          </div>
+                        </div>
+                    </div>
                   </div>
 
-                  <div class="d-flex gap-5">
-                    <div class="art-printing-1 bg-4 col-4 d-flex flex-column justify-content-end">
-                        <div class="mx-2">
-                            <h3 class="art-printing-heading">Data Dashboard Healthcare</h3>
-                            <p class="art-printing-description">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                            </p>
-                            <ul class="art-printing-list list-unstyled d-flex gap-2">
-                              <li class="py-2 px-3 bg-secondary">html</li>
-                              <li class="py-2 px-3 bg-secondary">bootstrap</li>
-                              <li class="py-2 px-3 bg-secondary">Ruby</li>
-                            </ul>
+                  <div>
+                    <div class="row d-flex justify-content-between">
+                      <div class="art-printing-1 bg-4 col-md-4 d-flex flex-column justify-content-end">
+                          <div>
+                              <h3 class="art-printing-heading">Data Dashboard Healthcare</h3>
+                              <p class="art-printing-description">
+                                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                              </p>
+                              <ul class="art-printing-list list-unstyled d-flex gap-2">
+                                <li class="py-2 px-3 bg-secondary">html</li>
+                                <li class="py-2 px-3 bg-secondary">bootstrap</li>
+                                <li class="py-2 px-3 bg-secondary">Ruby</li>
+                              </ul>
+                          </div>
                         </div>
-                      </div>
-
-                    <div class="art-printing-2 bg-5 col-4 d-flex flex-column justify-content-end">
-                        <div class="mx-2">
-                            <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
-                            <p class="art-printing-description">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                            </p>
-                            <ul class="art-printing-list list-unstyled d-flex gap-2">
-                              <li class="py-2 px-3 bg-secondary">html</li>
-                              <li class="py-2 px-3 bg-secondary">bootstrap</li>
-                              <li class="py-2 px-3 bg-secondary">Ruby</li>
-                            </ul>
+  
+                      <div class="art-printing-2 bg-5 col-md-4 d-flex flex-column justify-content-end">
+                          <div>
+                              <h3 class="art-printing-heading">Profesional Art Printing Data</h3>
+                              <p class="art-printing-description">
+                                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                              </p>
+                              <ul class="art-printing-list list-unstyled d-flex gap-2">
+                                <li class="py-2 px-3 bg-secondary">html</li>
+                                <li class="py-2 px-3 bg-secondary">bootstrap</li>
+                                <li class="py-2 px-3 bg-secondary">Ruby</li>
+                              </ul>
+                          </div>
                         </div>
-                      </div>
-
-                    <div class="art-printing-3 bg-6 col-4 d-flex flex-column justify-content-end">
-                        <div class="mx-2">
-                            <h3 class="art-printing-heading">Website Protfolio </h3>
-                            <p class="art-printing-description">
-                                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                            </p>
-                            <ul class="art-printing-list list-unstyled d-flex gap-2">
-                              <li class="py-2 px-3 bg-secondary">html</li>
-                              <li class="py-2 px-3 bg-secondary">bootstrap</li>
-                              <li class="py-2 px-3 bg-secondary">Ruby</li>
-                            </ul>
+  
+                      <div class="art-printing-3 bg-6 col-md-4 d-flex flex-column justify-content-end">
+                          <div>
+                              <h3 class="art-printing-heading">Website Protfolio </h3>
+                              <p class="art-printing-description">
+                                  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+                              </p>
+                              <ul class="art-printing-list list-unstyled d-flex gap-2">
+                                <li class="py-2 px-3 bg-secondary">html</li>
+                                <li class="py-2 px-3 bg-secondary">bootstrap</li>
+                                <li class="py-2 px-3 bg-secondary">Ruby</li>
+                              </ul>
+                          </div>
                         </div>
-                      </div>
+                    </div>
                   </div>
                 </div>
             </div>
@@ -232,15 +237,11 @@
                     </p>
                     <button type="button" class="btn btn-warning ">Get my Resume</button>
                 </div>
-
-                <div class="about-img">
-                  <img src="images/about-desktop.svg" alt="placeholder">
-                </div>
             </div>
 
             <div class="about-categories d-flex justify-content-between mx-5 px-5">
-                <div class="categories">
-                    <div class="categories-heading-box">
+                <div class="categories col-md-4">
+                    <div class="categories-heading-box d-flex gap-2">
                         <img src="images/language-icon.svg" alt="diamond icon" />
                         <h3 class="categories-heading">Language</h3>
                     </div>
@@ -252,8 +253,8 @@
                     </ul>
                 </div>
 
-                <div class="categories">
-                    <div class="categories-heading-box">
+                <div class="categories col-md-4">
+                    <div class="categories-heading-box d-flex gap-2">
                         <img src="images/framework-icon.svg" alt="rectangle icon" />
                         <h3 class="categories-heading">Frameworks</h3>
                     </div>
@@ -266,8 +267,8 @@
                     </ul>
                 </div>
 
-                <div class="categories">
-                    <div class="categories-heading-box">
+                <div class="categories col-md-4">
+                    <div class="categories-heading-box d-flex gap-2">
                         <img src="images/skills-icon.svg" alt="round icon" />
                         <h3 class="categories-heading">Skills</h3>
                     </div>
@@ -283,31 +284,33 @@
         </div>
     </section>
     <section id="contact-section">
-      <div class="container-lg d-flex gap-5 my-5 py-5">
-          <h2>
+      <div class="container-lg my-5 py-5">
+        <div class="d-flex jusitify-content-center">
+          <h2 class="col-md-5">
             I'm always interested<br/>
             in hearing about new<br/>
             projects, so if you'd<br/>
             like to chat please<br/>
             get in touch.
           </h2>
-        <form class="ms-5 d-flex flex-column gap-3">
-          <div>
-            <label for="name" class="form-label" hidden></label>
-            <input id="name" type="text" class="form-control border-bottom-secondary">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label" hidden></label>
-            <input id="email" type="email" class="form-control">
-          </div>
-          <div class="mb-3 form-check p-0">
-            <label for="text" class="form-label" hidden></label>
-            <textarea class="form-control" id="text"></textarea>
-          </div>
-          <div class="d-flex justify-content-start">
-            <button type="submit" class="btn btn-warning">Get in touch</button>
-          </div>
-        </form>
+          <form class="ms-5 d-flex flex-column gap-3 col-md-7">
+            <div>
+              <label for="name" class="form-label" hidden></label>
+              <input id="name" type="text" class="form-control border-bottom-secondary">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label" hidden></label>
+              <input id="email" type="email" class="form-control">
+            </div>
+            <div class="mb-3 form-check p-0">
+              <label for="text" class="form-label" hidden></label>
+              <textarea class="form-control" id="text"></textarea>
+            </div>
+            <div class="d-flex justify-content-start">
+              <button type="submit" class="btn btn-warning">Get in touch</button>
+            </div>
+          </form>
+        </div>
       </div>
       <div class="pt-5 border border-top-secondary text-dark">
         <ul class="social-icons-lists list-unstyled mx-5 d-flex justify-content-center gap-2 text-dark">

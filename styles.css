@@ -4,10 +4,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 435px !important;
+  width: 369px !important;
 }
 
 .full-btn {
-  width: 100% !important;
+  width: 369px !important;
   border-radius: 0% !important;
 }
 
@@ -16,6 +17,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 435px !important;
+  width: 369px !important;
 }
 
 .art-printing-3 {
@@ -23,6 +26,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 435px !important;
+  width: 369px !important;
 }
 
 .navbar {
@@ -33,7 +38,7 @@
 input,
 textarea {
   height: 114px;
-  width: 689px !important;
+  max-width: 689px !important;
 }
 
 input {
@@ -45,16 +50,18 @@ input {
   background-color: #1c1a19;
   padding: 120px 0 180px 0;
   position: relative;
-}
-
-.headline-text-box {
-  width: 50%;
-  justify-content: space-between !important;
+  background-position: right;
 }
 
 .about-box {
-  display: flex;
-  justify-content: space-between !important;
+  background-image: url(images/illustration-header.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.headline-section {
+  background-image: url(images/illustration-header.svg);
+  background-repeat: no-repeat;
 }
 
 .headline-img-box {
