@@ -1,0 +1,73 @@
+.art-printing-1 {
+  background: url(images/desktop-1.svg), linear-gradient(179.4deg, rgba(38, 38, 38, 0.2) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 435px !important;
+  width: 369px !important;
+}
+
+.full-btn {
+  width: 369px !important;
+  border-radius: 0% !important;
+}
+
+.art-printing-2 {
+  background: url(images/desktop-2.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 435px !important;
+  width: 369px !important;
+}
+
+.art-printing-3 {
+  background: url(images/desktop-3.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 435px !important;
+  width: 369px !important;
+}
+
+.navbar {
+  background-color: #3c3a39;
+  height: 72px;
+}
+
+input,
+textarea {
+  height: 114px;
+  max-width: 689px !important;
+}
+
+input {
+  height: auto !important;
+}
+
+.headline-section,
+.about-section {
+  background-color: #1c1a19;
+  padding: 120px 0 180px 0;
+  position: relative;
+  background-position: right;
+}
+
+.about-box {
+  background-image: url(images/illustration-header.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.headline-section {
+  background-image: url(images/illustration-header.svg);
+  background-repeat: no-repeat;
+}
+
+.headline-img-box {
+  min-width: 50%;
+  background-image: url("img/illustration-header.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+}
